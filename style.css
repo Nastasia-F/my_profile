@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@600&display=swap');
+
+body {
+  background: #f7f4f4;
+}
+
+.card-top {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 10px 15px rgba(0,0,0,.1);
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.card-bottom {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 10px 15px rgba(0,0,0,.1);
+  margin: 15px 0px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  color: #6ed8c0;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 150px;
+}
+
+p {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  display: block;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+a {
+  font-family: 'Sarabun', sans-serif;
+  text-decoration: none;
+  color: #f99a7d;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+i {
+  font-size: 25px;
+}
+
+i:hover {
+  color: #f99a7d80;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  color: #6ed8c0;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin: 17px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.btn-green {
+  background-color: #f99a7d;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin-top: 20px,
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.container {
+  background-color: white;
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+    .container {
+      width: 500px;
+    }
+  }
